@@ -1,0 +1,75 @@
+div.whyUs {
+  margin-top: 8px;
+  margin-bottom: 80px;
+  display: flex;
+  font-family: 'Great Vibes', cursive;
+  padding: 15px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 150vh;
+  // border: 4px solid green;
+
+  div.articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    // border: 4px solid black;
+
+    h1 {
+      font-size: 50px;
+    }
+  }
+
+  div.art1 {
+    height: 120%;
+
+    i {
+      font-size: 80px;
+    }
+  }
+
+  div.artB {
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+    div {
+      display: flex;
+      flex-flow: column wrap;
+      justify-content: center;
+      align-items: center;
+      height: 100%;
+      width: 60%;
+      // border: 4px solid black;
+
+      h2 {
+        font-size: 50px;
+      }
+
+      p {
+        font-size: 40px;
+        display: block;
+        width: 100%;
+        margin-left: 5%;
+      }
+    }
+  }
+
+  i.fas {
+    padding: 20px;
+    font-size: 60px;
+    color: #E1528D;
+    border: 6px solid violet;
+    border-radius: 50%;
+    transition: .3s;
+  }
+
+  i:hover {
+    background-color: #aE1172;
+    color: white;
+    border: 6px solid #8E1172;
+  }
+}

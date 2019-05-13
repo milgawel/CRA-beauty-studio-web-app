@@ -1,0 +1,26 @@
+header {
+  background-image: url('../images/BanneOkrag.png');
+  padding: 20px 0;
+  width: 100%;
+  flex-basis: 40vh;
+  top: -20px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: inset 0 -10px -70px -10px #fff;
+  opacity: 0;
+  animation: header 2s linear;
+  animation-delay: 4s;
+  animation-fill-mode: both;
+
+}
+
+@keyframes header {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
