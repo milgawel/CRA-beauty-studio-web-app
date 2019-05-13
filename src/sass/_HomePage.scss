@@ -19,6 +19,7 @@ div.whyUs {
 
     h1 {
       font-size: 50px;
+      text-align: center;
     }
   }
 
@@ -47,6 +48,7 @@ div.whyUs {
 
       h2 {
         font-size: 50px;
+        text-align: center;
       }
 
       p {
@@ -71,5 +73,11 @@ div.whyUs {
     background-color: #aE1172;
     color: white;
     border: 6px solid #8E1172;
+  }
+}
+
+div.inner {
+  p {
+    text-align: center;
   }
 }
