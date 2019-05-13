@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/CRA-beauty-studio-web-app/static/css/main.dd6b5962.chunk.css",
+    "main.js": "/CRA-beauty-studio-web-app/static/js/main.e843eb28.chunk.js",
+    "main.js.map": "/CRA-beauty-studio-web-app/static/js/main.e843eb28.chunk.js.map",
+    "runtime~main.js": "/CRA-beauty-studio-web-app/static/js/runtime~main.76810075.js",
+    "runtime~main.js.map": "/CRA-beauty-studio-web-app/static/js/runtime~main.76810075.js.map",
+    "static/js/2.97a82b49.chunk.js": "/CRA-beauty-studio-web-app/static/js/2.97a82b49.chunk.js",
+    "static/js/2.97a82b49.chunk.js.map": "/CRA-beauty-studio-web-app/static/js/2.97a82b49.chunk.js.map",
+    "index.html": "/CRA-beauty-studio-web-app/index.html",
+    "precache-manifest.b4504b9e702b487472abdc25dca5b063.js": "/CRA-beauty-studio-web-app/precache-manifest.b4504b9e702b487472abdc25dca5b063.js",
+    "service-worker.js": "/CRA-beauty-studio-web-app/service-worker.js",
+    "static/css/main.dd6b5962.chunk.css.map": "/CRA-beauty-studio-web-app/static/css/main.dd6b5962.chunk.css.map",
+    "static/media/styles.min.css": "/CRA-beauty-studio-web-app/static/media/nav.404fc494.jpg"
+  }
+}
