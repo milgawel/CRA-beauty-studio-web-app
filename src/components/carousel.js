@@ -8,7 +8,7 @@ export default class SlideView extends Component {
       dots: true,
       infinite: true,
       speed: 1000,
-      autoplaySpeed: 5000,
+      autoplaySpeed: 4000,
       slidesToShow: 2,
       slidesToScroll: 1,
       autoplay: true,

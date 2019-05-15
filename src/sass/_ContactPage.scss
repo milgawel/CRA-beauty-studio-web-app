@@ -1,0 +1,98 @@
+.contactPage {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+
+  .contact {
+    margin: 10px 5%;
+    width: 40%;
+
+    form {
+      border: 3px solid #8E1172;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: column;
+      margin-right: auto;
+      padding: 20px;
+      // background-image: url("../images/nav.jpg");
+
+
+      font-family: 'Montserrat', sans-serif;
+
+
+      h1 {
+        font-size: 42px;
+        font-weight: normal;
+      }
+
+      textarea {
+        border-radius: 10px;
+        font-size: 18px;
+        margin: 5px 0;
+        width: 100%;
+        padding: 5px;
+        border: 2px solid #8E1172;
+      }
+
+      button {
+        margin: 20px 0 0 auto;
+        font-size: 16px;
+        font-weight: bold;
+        display: block;
+        background-color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        border-radius: 25px;
+        cursor: pointer;
+        border: 4px solid #8E1172;
+        color: black;
+        padding: 15px 25px;
+        transition: .3s;
+        text-transform: uppercase;
+      }
+
+      button:hover {
+        background-color: #8E1172;
+        border: 4px solid #4E1172;
+        color: white;
+      }
+    }
+  }
+
+  div.general {
+    width: 40%;
+    margin: 10px 5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    border: 3px solid #8E1172;
+    border-radius: 10px;
+
+
+    div.gen {
+      display: flex;
+      flex-direction: row;
+      margin: 20px auto 20px auto;
+      border: 3px solid transparent;
+      transition: .3s;
+
+      h2 {
+        padding: 4px;
+      }
+
+
+      i {
+        margin: 0 12px;
+        font-size: 40px;
+        // border: 3px solid #8E1172;
+        border-radius: 50%;
+        color: #8E1172;
+      }
+    }
+
+    div.gen:hover {
+      border-bottom: 3px solid #8E1172;
+      color: #4E1172
+    }
+  }
+}
