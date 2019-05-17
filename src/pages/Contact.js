@@ -117,7 +117,12 @@ class Contact extends React.Component {
             when={!this.state.isEmpty}
             message="Niewypełniony formularz. Czy na pewno chcesz opuścić tę stronę?" />
         </div >
-        <div className="googleMap"><GoogleMap /></div>
+        <div className="googleMap">
+        <p>
+          Sprawdź gdzie nas znaleźć!
+        </p>
+        <GoogleMap />
+        </div>
       </>
     );
   }

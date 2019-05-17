@@ -96,3 +96,33 @@
     }
   }
 }
+
+div.googleMap {
+  margin: 40px 20% 60px 20%;
+
+  p {
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px auto 10px auto;
+    text-align: center;
+    font-size: 30px;
+  }
+
+  i.fa-map-marker-alt {
+    font-size: 30px;
+    color: #EE0000;
+    position: relative;
+    transform: translate(-50%, -100%);
+    animation: marker .5s infinite alternate;
+  }
+}
+
+@keyframes marker {
+  0% {
+    top: 10px;
+  }
+
+  100% {
+    top: 0px;
+  }
+}
