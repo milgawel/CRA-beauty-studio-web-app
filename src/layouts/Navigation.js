@@ -1,11 +1,10 @@
 import React from 'react';
-import {NavLink} from 'react-router-dom';
-import '../css/styles.min.css';
-// import '../js/script.js';
+import { NavLink } from 'react-router-dom';
 
 const Navigation = () => {
- 
-  return ( 
+
+
+  return (
     <nav id="nav">
       <ul>
         <li>
@@ -24,8 +23,8 @@ const Navigation = () => {
           <NavLink to="/contact" >kontakt</NavLink>
         </li>
       </ul>
-    </nav>
-   );
+    </nav >
+  );
 }
- 
+
 export default Navigation;
