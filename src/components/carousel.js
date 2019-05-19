@@ -18,15 +18,15 @@ export default class SlideView extends Component {
       <div className="caro">
         <h2>Dlaczego my?</h2>
         <Slider {...settings}>
-          <div className="img1">
+          <div className="img1 mySlideshow">
           </div>
-          <div className="img2">
+          <div className="img2 mySlideshow">
           </div>
-          <div className="img3">
+          <div className="img3 mySlideshow">
           </div>
-          <div className="img4">
+          <div className="img4 mySlideshow">
           </div>
-          <div className="img5">
+          <div className="img5 mySlideshow">
           </div>
         </Slider>
       </div>
