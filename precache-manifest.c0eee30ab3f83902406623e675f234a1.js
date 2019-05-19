@@ -1,0 +1,66 @@
+self.__precacheManifest = (self.__precacheManifest || []).concat([
+  {
+    "revision": "091ce65a1ad18ad00b8dd6312285258a",
+    "url": "/CRA-beauty-studio-web-app/index.html"
+  },
+  {
+    "revision": "c787f98c6cde45b7109d",
+    "url": "/CRA-beauty-studio-web-app/static/css/main.f1f8bae5.chunk.css"
+  },
+  {
+    "revision": "eebdce3145b2377e7524",
+    "url": "/CRA-beauty-studio-web-app/static/js/2.60cd9b53.chunk.js"
+  },
+  {
+    "revision": "c787f98c6cde45b7109d",
+    "url": "/CRA-beauty-studio-web-app/static/js/main.e51879fd.chunk.js"
+  },
+  {
+    "revision": "f31ef731b845e7f317d6",
+    "url": "/CRA-beauty-studio-web-app/static/js/runtime~main.76810075.js"
+  },
+  {
+    "revision": "7de9f8c93ce02f27cee8cb31b38f090f",
+    "url": "/CRA-beauty-studio-web-app/static/media/1.7de9f8c9.jpg"
+  },
+  {
+    "revision": "52b4723935dddd3512fd8daf4dcfd377",
+    "url": "/CRA-beauty-studio-web-app/static/media/2.52b47239.jpg"
+  },
+  {
+    "revision": "78273e3c4ac580553af5388183b18446",
+    "url": "/CRA-beauty-studio-web-app/static/media/3.78273e3c.jpg"
+  },
+  {
+    "revision": "2960b3126c5e9177c3c4f4fcb5619b5b",
+    "url": "/CRA-beauty-studio-web-app/static/media/4.2960b312.jpg"
+  },
+  {
+    "revision": "c90a16b7199cbbf16bae5f05332f8adf",
+    "url": "/CRA-beauty-studio-web-app/static/media/5.c90a16b7.jpg"
+  },
+  {
+    "revision": "d8079b11e82464c5790c5e1354d47c97",
+    "url": "/CRA-beauty-studio-web-app/static/media/AboutUS1.d8079b11.jpg"
+  },
+  {
+    "revision": "2a637f5bb2be99de59a38772a8839e93",
+    "url": "/CRA-beauty-studio-web-app/static/media/BanneOkrag.2a637f5b.png"
+  },
+  {
+    "revision": "2ff40f859a2c38a8ba28df2353edb30e",
+    "url": "/CRA-beauty-studio-web-app/static/media/cert.2ff40f85.jpg"
+  },
+  {
+    "revision": "e4b7e709da3e719cc5117eff3c329f2f",
+    "url": "/CRA-beauty-studio-web-app/static/media/intro.e4b7e709.jpg"
+  },
+  {
+    "revision": "404fc4947e03eddd8159ed5b55fc5ebf",
+    "url": "/CRA-beauty-studio-web-app/static/media/nav.404fc494.jpg"
+  },
+  {
+    "revision": "c11aa5b9ab466680922455675d060de8",
+    "url": "/CRA-beauty-studio-web-app/static/media/pepe.c11aa5b9.png"
+  }
+]);

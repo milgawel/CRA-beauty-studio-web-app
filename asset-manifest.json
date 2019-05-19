@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/CRA-beauty-studio-web-app/static/css/main.cc511a60.chunk.css",
-    "main.js": "/CRA-beauty-studio-web-app/static/js/main.b7087141.chunk.js",
-    "main.js.map": "/CRA-beauty-studio-web-app/static/js/main.b7087141.chunk.js.map",
+    "main.css": "/CRA-beauty-studio-web-app/static/css/main.f1f8bae5.chunk.css",
+    "main.js": "/CRA-beauty-studio-web-app/static/js/main.e51879fd.chunk.js",
+    "main.js.map": "/CRA-beauty-studio-web-app/static/js/main.e51879fd.chunk.js.map",
     "runtime~main.js": "/CRA-beauty-studio-web-app/static/js/runtime~main.76810075.js",
     "runtime~main.js.map": "/CRA-beauty-studio-web-app/static/js/runtime~main.76810075.js.map",
-    "static/js/2.30f3a27b.chunk.js": "/CRA-beauty-studio-web-app/static/js/2.30f3a27b.chunk.js",
-    "static/js/2.30f3a27b.chunk.js.map": "/CRA-beauty-studio-web-app/static/js/2.30f3a27b.chunk.js.map",
+    "static/js/2.60cd9b53.chunk.js": "/CRA-beauty-studio-web-app/static/js/2.60cd9b53.chunk.js",
+    "static/js/2.60cd9b53.chunk.js.map": "/CRA-beauty-studio-web-app/static/js/2.60cd9b53.chunk.js.map",
     "index.html": "/CRA-beauty-studio-web-app/index.html",
-    "precache-manifest.b22e82a195ca86b09ef5600e8589af24.js": "/CRA-beauty-studio-web-app/precache-manifest.b22e82a195ca86b09ef5600e8589af24.js",
+    "precache-manifest.c0eee30ab3f83902406623e675f234a1.js": "/CRA-beauty-studio-web-app/precache-manifest.c0eee30ab3f83902406623e675f234a1.js",
     "service-worker.js": "/CRA-beauty-studio-web-app/service-worker.js",
-    "static/css/main.cc511a60.chunk.css.map": "/CRA-beauty-studio-web-app/static/css/main.cc511a60.chunk.css.map",
-    "static/media/styles.min.css": "/CRA-beauty-studio-web-app/static/media/nav.404fc494.jpg"
+    "static/css/main.f1f8bae5.chunk.css.map": "/CRA-beauty-studio-web-app/static/css/main.f1f8bae5.chunk.css.map",
+    "static/media/styles.min.css": "/CRA-beauty-studio-web-app/static/media/pepe.c11aa5b9.png",
+    "static/media/cert.jpg": "/CRA-beauty-studio-web-app/static/media/cert.2ff40f85.jpg"
   }
 }
