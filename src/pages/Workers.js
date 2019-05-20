@@ -1,13 +1,24 @@
-import React from 'react';
+import React, { Component } from 'react';
 import team from '../images/team.jpg'
 import ScrollAnimation from 'react-animate-on-scroll';
 import worker1 from '../images/worker1.png';
 import worker2 from '../images/worker2.png';
 import worker3 from '../images/worker3.png';
 
+class ScrollToTopOnMount extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
+  render() {
+    return null;
+  }
+}
+
 const Workers = () => {
   return (
     <div className="workers">
+      <ScrollToTopOnMount />
       <div className="team">
         <p>Nasz zespół</p>
         <img src={team} alt="" />

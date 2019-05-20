@@ -1,6 +1,17 @@
-import React from 'react';
+import React, { Component } from 'react';
 import GoogleMap from '../components/googleMap';
 import { Prompt } from 'react-router-dom';
+
+class ScrollToTopOnMount extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
+  render() {
+    return null;
+  }
+}
+
 
 class Contact extends React.Component {
 
@@ -84,6 +95,7 @@ class Contact extends React.Component {
   render() {
     return (
       <>
+      <ScrollToTopOnMount />
         <div className="contactPage">
           <div className="contact">
             <form onSubmit={this.handleSubmit}>

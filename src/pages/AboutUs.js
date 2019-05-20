@@ -1,11 +1,22 @@
-import React from 'react';
+import React, { Component } from 'react';
 import ScrollAnimation from 'react-animate-on-scroll';
 import cert from '../images/cert.jpg';
+
+class ScrollToTopOnMount extends Component {
+  componentDidMount() {
+    window.scrollTo(0, 0);
+  }
+
+  render() {
+    return null;
+  }
+}
+
 
 const AboutUs = () => {
   return (
     <div className="aboutUsGeneral">
-
+      <ScrollToTopOnMount />
       <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
         {
           <div className="aUs1">
