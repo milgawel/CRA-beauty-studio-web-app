@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "091ce65a1ad18ad00b8dd6312285258a",
+    "revision": "fdee89008b8d768ee36e913b5252bbf5",
     "url": "/CRA-beauty-studio-web-app/index.html"
   },
   {
-    "revision": "c787f98c6cde45b7109d",
-    "url": "/CRA-beauty-studio-web-app/static/css/main.f1f8bae5.chunk.css"
+    "revision": "b9c6448b1927e61fed29",
+    "url": "/CRA-beauty-studio-web-app/static/css/main.840f19af.chunk.css"
   },
   {
-    "revision": "eebdce3145b2377e7524",
-    "url": "/CRA-beauty-studio-web-app/static/js/2.60cd9b53.chunk.js"
+    "revision": "fcad88fe4b39ceec1021",
+    "url": "/CRA-beauty-studio-web-app/static/js/2.5cab4feb.chunk.js"
   },
   {
-    "revision": "c787f98c6cde45b7109d",
-    "url": "/CRA-beauty-studio-web-app/static/js/main.e51879fd.chunk.js"
+    "revision": "b9c6448b1927e61fed29",
+    "url": "/CRA-beauty-studio-web-app/static/js/main.f45aa632.chunk.js"
   },
   {
     "revision": "f31ef731b845e7f317d6",
@@ -62,5 +62,21 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c11aa5b9ab466680922455675d060de8",
     "url": "/CRA-beauty-studio-web-app/static/media/pepe.c11aa5b9.png"
+  },
+  {
+    "revision": "5baa7650f033e6f030045f4e3835dd80",
+    "url": "/CRA-beauty-studio-web-app/static/media/team.5baa7650.jpg"
+  },
+  {
+    "revision": "e61ba2ff2a189235e07f08adb0e39713",
+    "url": "/CRA-beauty-studio-web-app/static/media/worker1.e61ba2ff.png"
+  },
+  {
+    "revision": "be7eb0ea6c5f66c1109642a5a797cc04",
+    "url": "/CRA-beauty-studio-web-app/static/media/worker2.be7eb0ea.png"
+  },
+  {
+    "revision": "eb657a48dd0dc6ee0aa5b24e0393f999",
+    "url": "/CRA-beauty-studio-web-app/static/media/worker3.eb657a48.png"
   }
 ]);
