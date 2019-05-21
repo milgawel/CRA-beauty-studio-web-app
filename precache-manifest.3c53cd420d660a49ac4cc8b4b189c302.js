@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "fdee89008b8d768ee36e913b5252bbf5",
+    "revision": "978feeb29c82a323a5ec1941ed277897",
     "url": "/CRA-beauty-studio-web-app/index.html"
   },
   {
-    "revision": "b9c6448b1927e61fed29",
-    "url": "/CRA-beauty-studio-web-app/static/css/main.840f19af.chunk.css"
+    "revision": "1e7742e633024bee50cd",
+    "url": "/CRA-beauty-studio-web-app/static/css/main.93877390.chunk.css"
   },
   {
-    "revision": "fcad88fe4b39ceec1021",
-    "url": "/CRA-beauty-studio-web-app/static/js/2.5cab4feb.chunk.js"
+    "revision": "a2572bf6b87e111fe316",
+    "url": "/CRA-beauty-studio-web-app/static/js/2.735e3673.chunk.js"
   },
   {
-    "revision": "b9c6448b1927e61fed29",
-    "url": "/CRA-beauty-studio-web-app/static/js/main.f45aa632.chunk.js"
+    "revision": "1e7742e633024bee50cd",
+    "url": "/CRA-beauty-studio-web-app/static/js/main.e67e98a9.chunk.js"
   },
   {
     "revision": "f31ef731b845e7f317d6",
@@ -68,8 +68,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/CRA-beauty-studio-web-app/static/media/team.5baa7650.jpg"
   },
   {
-    "revision": "e61ba2ff2a189235e07f08adb0e39713",
-    "url": "/CRA-beauty-studio-web-app/static/media/worker1.e61ba2ff.png"
+    "revision": "6d1737b3c809f750d337d9a004e58d67",
+    "url": "/CRA-beauty-studio-web-app/static/media/worker1.6d1737b3.png"
   },
   {
     "revision": "be7eb0ea6c5f66c1109642a5a797cc04",
