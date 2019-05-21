@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Manicure from '../components/dropdowns/Manicure'
 
 class ScrollToTopOnMount extends Component {
   componentDidMount() {
@@ -15,7 +16,7 @@ const Offer = () => {
     <div className="offer">
       <ScrollToTopOnMount />
       <div>
-        Offedsffdsdsdsfr
+        {Manicure}
       </div>
     </div>
   );
