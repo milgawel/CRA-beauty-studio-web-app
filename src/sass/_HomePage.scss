@@ -9,6 +9,11 @@ div.whyUs {
   align-items: center;
   height: 150vh;
 
+  text {
+    color: white;
+    font-size: 40px;
+  }
+
   div.articles {
     display: flex;
     flex-direction: column;
@@ -72,6 +77,8 @@ div.whyUs {
     border: 6px solid #8E1172;
   }
 }
+
+
 
 div.inner {
   p {

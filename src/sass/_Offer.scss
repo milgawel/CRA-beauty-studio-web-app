@@ -1,59 +1,77 @@
-// div.dropdown {
-//   position: relative;
-//   display: inline-block;
+div.offer {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 28px;
 
-//   .button {
-//     width: 178px;
-//     height: 18px;
-//     background-color: #ff3232;
-//     padding: 12px;
-//     border-radius: 5px;
-//     font-weight: bold;
-//     color: white;
-//   }
 
-//   .button:before {
-//     content: "";
-//     position: absolute;
-//     width: 0px;
-//     height: 0px;
-//     border: 10px solid;
-//     border-color: white transparent transparent transparent;
-//     right: 6px;
-//     top: 18px;
-//   }
-// }
+  div.mainOffer {
+    width: 100%;
+    padding-left: 15%;
+    padding-right: 15%;
 
-// ul.manicure {
-//   list-style-type: none;
-//   margin: 0;
-//   padding: 0;
-//   top: 45px;
-//   right: 0px;
-//   width: 200px;
-//   background-color: white;
-//   font-weight: bold;
-//   position: absolute;
+    h1 {
+      font-family: 'Montserrat', sans-serif;
+      text-align: center;
+      font-size: $fontSize_h1;
+      color: #6E1172;
+    }
+  }
 
-//   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-//   z-index: 1;
+  div.offers {
+    display: flex;
+    flex-wrap: wrap;
 
-//   li {
-//     padding: 8px 16px;
-//     border-bottom: 1px solid #e5e5e5;
 
-//     a {
-//       color: #000;
-//       text-decoration: none;
-//     }
-//   }
+    div.offer1 {
+      display: flex;
+      justify-content: center;
+      flex-grow: 1;
+      width: 49%;
 
-//   li:last-child {
-//     border-bottom: none;
-//   }
+      ul {
+        margin-top: 20px;
+        width: 80%;
 
-//   li:hover {
-//     background-color: #e5e5e5;
-//     color: white;
-//   }
-// }
+        p.title {
+          text-align: center;
+          font-size: $fontSize_p;
+          color: #6E1172;
+          text-transform: uppercase;
+          border-bottom: 2px solid #6E1172;
+        }
+
+        li {
+          list-style: none;
+          border: 2px solid transparent;
+          display: flex;
+          flex-direction: row;
+          margin: 8px 0;
+          transition: .3s;
+          border: 1px solid transparent;
+          border-radius: 20px;
+          cursor: pointer;
+
+          div {
+            width: 49%;
+
+            p {
+              text-align: center;
+              font-family: 'Montserrat', sans-serif;
+              font-size: 19px;
+              color: #6E1172;
+            }
+          }
+        }
+
+        li:hover {
+          background-color: rgb(255, 195, 221);
+          transform: translateX(10px);
+          border: 1px solid #EE1172;
+        }
+      }
+    }
+  }
+}

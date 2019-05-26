@@ -10,16 +10,16 @@ const Animation = () => {
   return (
     <>
       <div className="whyUs">
-        <ScrollAnimation animateIn="fadeIn" animateOnce={true}>>
+        <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
           {<Art1 />}
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>>
+        <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
           {<Art2 />}
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInRight" animateOnce={true}>>
+        <ScrollAnimation animateIn="fadeInRight" animateOnce={true}>
           {<Art3 />}
         </ScrollAnimation>
-        <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>>
+        <ScrollAnimation animateIn="fadeInLeft" animateOnce={true}>
           {<Art4 />}
         </ScrollAnimation>
       </div>

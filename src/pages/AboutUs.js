@@ -18,16 +18,13 @@ const AboutUs = () => {
     <div className="aboutUsGeneral">
       <ScrollToTopOnMount />
       <ScrollAnimation animateIn="fadeIn" animateOnce={true}>
-        {
-          <div className="aUs1">
-          </div>
-        }
+        {<div className="aUs1"></div>}
       </ScrollAnimation>
       <ScrollAnimation animateIn="fadeInUp" animateOnce={true}>
         <div className="aUs2">
           <h1> Kilka słów o naszym<strong> Beauty Studio</strong></h1>
-          <p className="2">  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sit fugit corporis recusandae officiis ad praesentium? Impedit exercitationem, neque repellat rerum nostrum tempora doloremque commodi molestiae cumque eius, numquam animi!
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vel labore dolore totam exercitationem nisi, distinctio reiciendis beatae ex a nulla corrupti sint eaque optio harum quisquam illo officiis? Quaerat, maxime.</p>
+          <p>  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eius sit fugit corporis recusandae officiis ad praesentium? Impedit exercitationem, neque repellat rerum nostrum tempora doloremque commodi molestiae cumque eius, numquam animi!
+          Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
         </div>
       </ScrollAnimation>
 
