@@ -2,11 +2,12 @@ footer {
   div {
     position: relative;
     display: flex;
+    flex-direction: row;
     justify-content: center;
-    flex-basis: 12vh;
     background-color: #000;
     color: white;
     padding: 3vh;
+
 
     p {
       display: block;
@@ -21,6 +22,8 @@ footer {
       margin: 0;
       padding: 0;
       display: flex;
+      justify-content: center;
+      width: 35%;
 
       li {
         list-style: none;
@@ -117,6 +120,25 @@ footer {
           transform-origin: bottom;
           transition: transform .5s;
         }
+      }
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  footer {
+    div {
+      flex-direction: column-reverse;
+      height: 150px;
+      padding: 0;
+
+      p {
+        margin-right: 0;
+      }
+
+      ul {
+        margin: 10px 0;
+        width: 100%;
       }
     }
   }

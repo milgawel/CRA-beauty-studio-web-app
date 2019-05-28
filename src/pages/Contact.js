@@ -4,7 +4,7 @@ import { Prompt } from 'react-router-dom';
 
 class ScrollToTopOnMount extends Component {
   componentDidMount() {
-    window.scrollTo(0, 0);
+    window.scrollTo(0, 250);
   }
 
   render() {

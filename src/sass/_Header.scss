@@ -2,7 +2,7 @@ header {
   background-image: url('../images/BanneOkrag.png');
   padding: 20px 0;
   width: 100%;
-  flex-basis: 40vh;
+  flex-basis: 250px;
   top: -20px;
   background-position: center;
   background-size: contain;
@@ -22,5 +22,11 @@ header {
 
   100% {
     opacity: 1;
+  }
+}
+
+@media (max-width:1024px) {
+  header {
+    display: none;
   }
 }

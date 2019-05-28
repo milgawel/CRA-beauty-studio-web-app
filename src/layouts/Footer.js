@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <div>
-      <ul>
+      <ul className="logo">
         <li>
           <p>
             <span></span>
@@ -13,8 +13,7 @@ const Footer = () => {
             2019 - Gabinet kosmetyczny Beauty Body</p>
         </li>
       </ul>
-
-      <ul>
+      <ul className="socialMedia">
         <li>
           <a href="#">
             <span></span>

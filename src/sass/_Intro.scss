@@ -11,6 +11,8 @@ div.animatedLogo {
   text-align: center;
   animation: intro 3s;
   animation-fill-mode: both;
+  top: 0;
+  left: 0;
 
   p {
     display: inline-block;

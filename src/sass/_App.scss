@@ -3,3 +3,13 @@ div.app {
   flex-direction: column;
   background-color: #fffffa;
 }
+
+#root {
+  overflow: hidden;
+}
+
+@media (max-width:1024px) {
+  body {
+    margin-top: 125px;
+  }
+}

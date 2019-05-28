@@ -7,7 +7,7 @@ import worker3 from '../images/worker3.png';
 
 class ScrollToTopOnMount extends Component {
   componentDidMount() {
-    window.scrollTo(0, 0);
+    window.scrollTo(0, 250);
   }
 
   render() {
