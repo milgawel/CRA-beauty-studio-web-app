@@ -96,13 +96,13 @@ div {
 }
 
 .side-drawer {
-  height: 400px;
+  height: 330px;
   background-color: #8E1172;
   box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 84px;
   left: 0;
-  width: 70%;
+  width: 50%;
   z-index: 200;
   border-bottom-right-radius: 20px;
   transform: translateX(-104%);
@@ -194,5 +194,23 @@ div {
 
   .toggle-button {
     display: none !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .side-drawer {
+    width: 60%;
+  }
+}
+
+@media (max-width: 500px) {
+  .side-drawer {
+    width: 70%;
+  }
+}
+
+@media (max-width: 420px) {
+  .side-drawer {
+    width: 85%;
   }
 }
