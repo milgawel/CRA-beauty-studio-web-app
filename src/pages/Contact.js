@@ -4,7 +4,7 @@ import { Prompt } from 'react-router-dom';
 
 class ScrollToTopOnMount extends Component {
   componentDidMount() {
-    window.scrollTo(0, 250);
+    window.scrollTo(0, 0);
   }
 
   render() {
@@ -133,7 +133,7 @@ class Contact extends React.Component {
         <p>
           Sprawdź gdzie nas znaleźć!
         </p>
-        
+
         <GoogleMap />
         </div>
       </>

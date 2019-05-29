@@ -9,8 +9,7 @@ const Footer = () => {
             <span></span>
             <span></span>
             <span></span>
-            <span></span>
-            2019 - Gabinet kosmetyczny Beauty Body</p>
+            <span></span>M.Gaweł - WebPage Beauty Body</p>
         </li>
       </ul>
       <ul className="socialMedia">

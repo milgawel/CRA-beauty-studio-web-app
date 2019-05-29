@@ -139,12 +139,18 @@ footer {
       ul {
         margin: 10px 0;
         width: 100%;
+
+        li {
+          p {
+            width: 300px
+          }
+        }
       }
     }
   }
 }
 
-@media (max-width: 359px) and (min-width:100px) {
+@media (max-width: 359px) {
   footer {
     div {
       flex-direction: column-reverse;
@@ -165,7 +171,6 @@ footer {
           width: 80% !important;
           margin: 0 auto !important;
         }
-
       }
     }
   }
