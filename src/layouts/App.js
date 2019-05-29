@@ -14,11 +14,13 @@ class App extends Component {
   state = {
     sideDrawerOpen: false
   }
+
   drawerToggleClickHandler = () => {
     this.setState((prevState) => {
       return { sideDrawerOpen: !prevState.sideDrawerOpen }
     });
   };
+
   backdropClickHandler = () => {
     this.setState({ sideDrawerOpen: false })
   };
@@ -29,13 +31,14 @@ class App extends Component {
     if (this.state.sideDrawerOpen) {
       backdrop = <Backdrop click={this.backdropClickHandler} />;
     }
+
     return (
       <Router basename={process.env.PUBLIC_URL} >
         <div className="animatedLogo">
           {<Intro />}
         </div>
         <div className="app">
-          <SideDrawer show={this.state.sideDrawerOpen} />
+          <SideDrawer show={this.state.sideDrawerOpen} click={this.backdropClickHandler}/>
           {backdrop}
           <header>
             {<Header />}
