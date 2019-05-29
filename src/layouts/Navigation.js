@@ -8,7 +8,7 @@ const Navigation = props => {
       <div className="toolbar__toggle-button">
         <DrawerToggleButton click={props.drawerClickHandler} />
       </div>
-      <div className="toolbar__logo"><a href="/">Beauty Body</a></div>
+      <div className="toolbar__logo"><a href="javascript:;" exact>Beauty Body</a></div>
       <div className="spacer"></div>
       <div className="toolbar-navigation-items">
         <ul>
