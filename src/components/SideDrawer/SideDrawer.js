@@ -13,7 +13,7 @@ if (props.show ) {
   <nav className={drawerClasses}>
     <ul>
       <li>
-        <NavLink to="/" exact onClick={props.click}>Strona głównaaa</NavLink>
+        <NavLink to="/" exact onClick={props.click}>Strona główna</NavLink>
       </li>
       <li>
         <NavLink to="/aboutUs" onClick={props.click}>O nas</NavLink>

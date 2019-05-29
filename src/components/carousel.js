@@ -7,11 +7,12 @@ export default class SlideView extends Component {
     const settings = {
       dots: true,
       infinite: true,
-      speed: 1000,
+      speed: 700,
       autoplaySpeed: 2500,
       slidesToShow: 2,
       slidesToScroll: 1,
       autoplay: true,
+      swipeToSlide: true,
     };
     
     return (
