@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b6a28bce2a857d3ebbd70eb9e68f4481",
+    "revision": "8bd7c6f9dcffbb32fbaa076c94d56ef2",
     "url": "/CRA-beauty-studio-web-app/index.html"
   },
   {
-    "revision": "c14b6166c1f175f6b64e",
-    "url": "/CRA-beauty-studio-web-app/static/css/main.a958a96d.chunk.css"
+    "revision": "d8d94ecbf54cdc46b6b1",
+    "url": "/CRA-beauty-studio-web-app/static/css/main.a1a0a6a7.chunk.css"
   },
   {
     "revision": "cee61f1ac0ccef0b1016",
     "url": "/CRA-beauty-studio-web-app/static/js/2.fa42f157.chunk.js"
   },
   {
-    "revision": "c14b6166c1f175f6b64e",
-    "url": "/CRA-beauty-studio-web-app/static/js/main.3545dd9e.chunk.js"
+    "revision": "d8d94ecbf54cdc46b6b1",
+    "url": "/CRA-beauty-studio-web-app/static/js/main.0f79e10a.chunk.js"
   },
   {
     "revision": "f31ef731b845e7f317d6",
