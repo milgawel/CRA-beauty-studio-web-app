@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/CRA-beauty-studio-web-app/precache-manifest.4ceb96a6ab233b881f154a2a06e5868c.js"
+  "/CRA-beauty-studio-web-app/precache-manifest.3e8d49284772d5e686a0b48e67fedf37.js"
 );
 
 self.addEventListener('message', (event) => {
