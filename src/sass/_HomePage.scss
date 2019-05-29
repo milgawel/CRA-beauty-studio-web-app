@@ -147,8 +147,64 @@ ul.slick-dots {
   }
 }
 
+div.slick-slider {
+  width: 100%;
+
+  .slick-slide {
+    padding: 0 1px;
+  }
+
+}
+
 @media (max-width:1024px) {
   div.mySlideshow {
     height: 150px;
+  }
+}
+
+@media (max-width:767px) {
+  div.whyUs {
+    div.articles {
+      h1 {
+        font-size: 25px;
+      }
+
+      h2 {
+        font-size: 25px !important;
+      }
+
+      p {
+        font-size: 20px !important;
+      }
+
+
+      i {
+        font-size: 40px;
+      }
+    }
+  }
+}
+
+@media (max-width:500px) {
+
+  div.artB {
+    flex-direction: column-reverse !important;
+    margin: 20px 0 !important;
+  }
+
+  div.art1 {
+    margin: 10px 0 !important;
+  }
+
+  div.inner {
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width:351px) {
+  ul.slick-dots {
+    li {
+      margin: 10px 20px;
+    }
   }
 }

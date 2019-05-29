@@ -1,24 +1,22 @@
 .contactPage {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
   display: flex;
+  flex-direction: row;
 
   .contact {
     margin: 10px 5%;
     width: 40%;
 
     form {
+      width: 100%;
       border: 3px solid #8E1172;
       border-radius: 10px;
       display: flex;
       flex-direction: column;
       margin-right: auto;
       padding: 20px;
-      // background-image: url("../images/nav.jpg");
-
-
       font-family: 'Montserrat', sans-serif;
-
 
       h1 {
         font-size: 42px;
@@ -78,6 +76,7 @@
 
       h2 {
         padding: 4px;
+        text-align: center;
       }
 
 
@@ -124,5 +123,70 @@ div.googleMap {
 
   100% {
     top: 0px;
+  }
+}
+
+@media (max-width: 810px) {
+  .contactPage {
+    flex-direction: column;
+
+    .contact {
+      margin: 10px 5%;
+      width: 90%;
+
+      form {
+        width: 100%;
+        margin: 0 auto;
+
+        h1 {
+          font-size: 25px;
+          font-weight: bold;
+        }
+      }
+    }
+
+    div.general {
+      width: 90%;
+
+      div.gen {
+        h2 {
+          font-size: 21px;
+        }
+      }
+    }
+
+  }
+
+  div.googleMap {
+    width: 90%;
+    margin: 30px auto 20px auto;
+
+    p {
+      margin-bottom: -10px;
+    }
+  }
+}
+
+@media (max-width: 580px) {
+  div.general {
+    div.gen {
+      margin: 14px 0 !important;
+    }
+  }
+}
+
+@media (max-width: 330px) {
+  div.general {
+    div.gen {
+      padding: 0 0px;
+
+      h2 {
+        padding: 2px !important;
+      }
+
+      i {
+        margin: 0 6px !important;
+      }
+    }
   }
 }

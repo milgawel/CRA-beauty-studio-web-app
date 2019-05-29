@@ -100,7 +100,7 @@ class Contact extends React.Component {
           <div className="contact">
             <form onSubmit={this.handleSubmit}>
               <h1>Skontaktuj się z nami!</h1>
-              <textarea value={this.state.nameValue} onChange={this.handleNameChange} placeholder="Imię i nazwisko / nazwa firmy" rows="1"></textarea>
+              <textarea value={this.state.nameValue} onChange={this.handleNameChange} placeholder="Imię i nazwisko" rows="1"></textarea>
               <textarea value={this.state.emailValue} onChange={this.handleEmailChange} placeholder="Adres e-mail" rows="1"></textarea>
               <textarea value={this.state.phoneValue} onChange={this.handlePhoneChange} placeholder="Telefon" rows="1"></textarea>
               <textarea value={this.state.textValue} onChange={this.handleTextChange} placeholder="Treść wiadomości" rows="10"></textarea>
@@ -122,7 +122,7 @@ class Contact extends React.Component {
             </div>
             <div className="gen">
               <i class="far fa-envelope"></i>
-              <h2>beautystudio@example.com</h2>
+              <h2>beautystudio@wp.pl</h2>
             </div>
           </div>
           <Prompt
@@ -133,6 +133,7 @@ class Contact extends React.Component {
         <p>
           Sprawdź gdzie nas znaleźć!
         </p>
+        
         <GoogleMap />
         </div>
       </>

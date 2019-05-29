@@ -6,7 +6,7 @@ footer {
     justify-content: center;
     background-color: #000;
     color: white;
-    padding: 3vh;
+    padding: 2vh;
 
 
     p {
@@ -15,7 +15,7 @@ footer {
       font-size: 18px;
       line-height: 50px;
       font-family: 'great-vibes';
-      margin-right: 5vh;
+      margin-right: 1vh;
     }
 
     ul {
@@ -125,7 +125,7 @@ footer {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1024px) and (min-width:360px) {
   footer {
     div {
       flex-direction: column-reverse;
@@ -139,6 +139,33 @@ footer {
       ul {
         margin: 10px 0;
         width: 100%;
+      }
+    }
+  }
+}
+
+@media (max-width: 359px) and (min-width:100px) {
+  footer {
+    div {
+      flex-direction: column-reverse;
+      height: 150px;
+      padding: 0;
+
+      p {
+        margin-right: 0;
+        width: 100px;
+        color: red;
+      }
+
+      ul {
+        margin: 10px 0;
+        width: 100%;
+
+        p {
+          width: 80% !important;
+          margin: 0 auto !important;
+        }
+
       }
     }
   }

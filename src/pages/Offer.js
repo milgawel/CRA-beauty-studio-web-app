@@ -44,25 +44,25 @@ const Offer = () => {
         <div className="offers">
           <div className="offer1">
             <ul>
-              <p className="title">kosmetologia paznokci</p>
+              <p className="title">sylizacja paznokci</p>
               {cosmetologyOffers}
             </ul>
           </div>
           <div className="offer1">
             <ul>
-              <p className="title">kosmetologia Twarzy</p>
+              <p className="title">kosmetologia twarzy</p>
               {cosmetologyOffers}
             </ul>
           </div>
           <div className="offer1">
             <ul>
-              <p className="title">kosmetologia stóp</p>
+              <p className="title">pielęgnacja stóp</p>
               {cosmetologyOffers}
             </ul>
           </div>
           <div className="offer1">
             <ul>
-              <p className="title">inne zabiegi ciała</p>
+              <p className="title">zabiegi na ciało</p>
               {cosmetologyOffers}
             </ul>
           </div>

@@ -28,7 +28,7 @@ const Workers = () => {
           <img src={worker1} alt="" />
           <div className="description">
             <h1>Katarzyna Nowak</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, asperiores suscipit voluptates nemo recusandae saepe reprehenderit nulla sequi harum qui fuga animi consequuntur nisi molestias, deleniti iste illum earum aut!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, asperiores suscipit voluptates nemo recusandae saepe reprehenderit nulla sequi harum qui fuga.</p>
           </div>
         </div>
       </ScrollAnimation>
@@ -37,7 +37,7 @@ const Workers = () => {
           <img src={worker2} alt="" />
           <div className="description">
             <h1>Monika Kowalska</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, asperiores suscipit voluptates nemo recusandae saepe reprehenderit nulla sequi harum qui fuga animi consequuntur nisi molestias, deleniti iste illum earum aut!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, asperiores suscipit voluptates nemo recusandae saepe reprehenderit nulla sequi harum qui fuga.</p>
           </div>
         </div>
       </ScrollAnimation>
@@ -46,7 +46,7 @@ const Workers = () => {
           <img src={worker3} alt="" />
           <div className="description">
             <h1>Natalia Lech</h1>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, asperiores suscipit voluptates nemo recusandae saepe reprehenderit nulla sequi harum qui fuga animi consequuntur nisi molestias, deleniti iste illum earum aut!</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, asperiores suscipit voluptates nemo recusandae saepe reprehenderit nulla sequi harum qui fuga.</p>
           </div>
         </div>
       </ScrollAnimation>

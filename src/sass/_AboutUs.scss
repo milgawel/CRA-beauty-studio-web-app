@@ -58,10 +58,9 @@ div.aboutUsGeneral {
   }
 
   div.aUs4 {
-    height: 50vh;
+    min-height: 50vh;
     width: 100%;
-    margin-bottom: 10px;
-
+    margin: 30px 0 20px 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -74,13 +73,15 @@ div.aboutUsGeneral {
 
     div.certificates {
       display: flex;
+      flex-direction: row;
       justify-content: space-around;
 
       figure {
         width: 25vh;
-        height: 18.7vh;
+        margin: 5px 5px;
 
         figcaption {
+          transform: translateY(-20px);
           padding: 0;
           margin: 0;
           border: 0;
@@ -96,5 +97,44 @@ div.aboutUsGeneral {
         }
       }
     }
+  }
+}
+
+@media (max-width:468px) {
+  div.aUs1 {
+    height: 30vh !important;
+    margin: 0 0;
+  }
+
+  div.aUs2 {
+    margin: 20px auto !important;
+
+    h1 {
+      font-size: 25px !important;
+    }
+
+  }
+
+  div.aUs3 {
+    h1 {
+      font-size: 25px !important;
+    }
+
+  }
+
+  div.aUs4.aUs4 {
+    margin-top: 60px !important;
+
+
+    h1 {
+      font-size: 25px;
+    }
+  }
+}
+
+@media (max-width:800px) {
+  div.certificates {
+    flex-wrap: wrap;
+
   }
 }

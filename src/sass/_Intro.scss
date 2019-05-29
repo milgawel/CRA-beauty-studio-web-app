@@ -50,3 +50,9 @@ div.animatedLogo {
 div.slick-slider {
   width: 98%;
 }
+
+@media (max-width:1024px) {
+  div.animatedLogo {
+    display: none;
+  }
+}

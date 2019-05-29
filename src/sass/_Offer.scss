@@ -22,18 +22,22 @@ div.offer {
 
   div.offers {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
 
 
     div.offer1 {
       display: flex;
       justify-content: center;
-      flex-grow: 1;
-      width: 49%;
+      width: 44%;
+      border: 4px solid #8E1172;
+      border-radius: 20px;
+      margin: 20px 20px;
+      padding: 20px 20px;
 
       ul {
-        margin-top: 20px;
-        width: 80%;
+        margin: auto auto;
+        width: 85%;
 
         p.title {
           text-align: center;
@@ -72,6 +76,28 @@ div.offer {
           border: 1px solid #EE1172;
         }
       }
+    }
+  }
+}
+
+@media (max-width: 835px) {
+  div.offer1 {
+    width: 90% !important;
+  }
+}
+
+@media (max-width: 460px) {
+  div.offer1 {
+    margin-left: 5px !important;
+    margin-right: 5px !important;
+    width: 100% !important;
+  }
+}
+
+@media (max-width: 340px) {
+  div.offer1 {
+    ul {
+      width: 100% !important;
     }
   }
 }

@@ -99,9 +99,8 @@ div {
   height: 400px;
   background-color: #8E1172;
   box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
-
   position: fixed;
-  top: 0;
+  top: 84px;
   left: 0;
   width: 70%;
   z-index: 200;
@@ -179,7 +178,7 @@ div {
 
   div.nav {
     position: fixed;
-    padding: 20px 6% 20px 6%;
+    padding: 10px 4% 10px 4%;
     width: 100%;
   }
 }
