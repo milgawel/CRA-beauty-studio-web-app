@@ -1,6 +1,6 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import DrawerToggleButton from '../components/SideDrawer/DrawerToggleButton';
+import React from "react";
+import { NavLink } from "react-router-dom";
+import DrawerToggleButton from "../components/SideDrawer/DrawerToggleButton";
 
 const Navigation = props => {
   return (
@@ -8,29 +8,35 @@ const Navigation = props => {
       <div className="toolbar__toggle-button">
         <DrawerToggleButton click={props.drawerClickHandler} />
       </div>
-      <div className="toolbar__logo"><a href="javascript:;" exact>Beauty Body</a></div>
+      <div className="toolbar__logo">
+        <a href="#" exact>
+          Beauty Body
+        </a>
+      </div>
       <div className="spacer"></div>
       <div className="toolbar-navigation-items">
         <ul>
           <li>
-            <NavLink to="/" exact>Strona główna</NavLink>
+            <NavLink to="/" exact>
+              Strona główna
+            </NavLink>
           </li>
           <li>
-            <NavLink to="/aboutUs" >O nas</NavLink>
+            <NavLink to="/aboutUs">O nas</NavLink>
           </li>
           <li>
-            <NavLink to="/workers" >Nasi specjaliści</NavLink>
+            <NavLink to="/workers">Nasi specjaliści</NavLink>
           </li>
           <li>
-            <NavLink to="/offer" >Oferta</NavLink>
+            <NavLink to="/offer">Oferta</NavLink>
           </li>
           <li>
-            <NavLink to="/contact" >kontakt</NavLink>
+            <NavLink to="/contact">kontakt</NavLink>
           </li>
         </ul>
       </div>
-    </nav >
+    </nav>
   );
-}
+};
 
 export default Navigation;

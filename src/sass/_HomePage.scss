@@ -2,12 +2,11 @@ div.whyUs {
   margin-top: 8px;
   margin-bottom: 8px;
   display: flex;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   padding: 15px;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  // height: 150vh;
 
   text {
     color: white;
@@ -71,20 +70,18 @@ div.whyUs {
   i.fas {
     padding: 20px;
     font-size: 60px;
-    color: #E1528D;
+    color: #e1528d;
     border: 6px solid violet;
     border-radius: 50%;
-    transition: .3s;
+    transition: 0.3s;
   }
 
   i:hover {
-    background-color: #aE1172;
+    background-color: #ae1172;
     color: white;
-    border: 6px solid #8E1172;
+    border: 6px solid #8e1172;
   }
 }
-
-
 
 div.inner {
   p {
@@ -96,9 +93,12 @@ div.caro {
   margin: 0;
   padding: 0;
   width: 100%;
+  @media (min-width: 1024px) {
+    padding-top: 100px;
+  }
 
   h2 {
-    font-family: 'Montserrat', sans-serif;
+    font-family: "Montserrat", sans-serif;
     text-align: center;
     font-size: 35px;
     margin-bottom: 4vh;
@@ -113,23 +113,23 @@ div.mySlideshow {
 }
 
 div.img1 {
-  background-image: url('../images/carosell/1.jpg');
+  background-image: url("../images/carosell/1.jpg");
 }
 
 div.img2 {
-  background-image: url('../images/carosell/2.jpg');
+  background-image: url("../images/carosell/2.jpg");
 }
 
 div.img3 {
-  background-image: url('../images/carosell/3.jpg');
+  background-image: url("../images/carosell/3.jpg");
 }
 
 div.img4 {
-  background-image: url('../images/carosell/4.jpg');
+  background-image: url("../images/carosell/4.jpg");
 }
 
 div.img5 {
-  background-image: url('../images/carosell/5.jpg');
+  background-image: url("../images/carosell/5.jpg");
 }
 
 ul.slick-dots {
@@ -141,7 +141,7 @@ ul.slick-dots {
 
     button::before {
       font-size: 20px;
-      color: #E1528D;
+      color: #e1528d;
       opacity: 1;
     }
   }
@@ -153,16 +153,15 @@ div.slick-slider {
   .slick-slide {
     padding: 0 1px;
   }
-
 }
 
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
   div.mySlideshow {
     height: 150px;
   }
 }
 
-@media (max-width:767px) {
+@media (max-width: 767px) {
   div.whyUs {
     div.articles {
       h1 {
@@ -177,7 +176,6 @@ div.slick-slider {
         font-size: 20px !important;
       }
 
-
       i {
         font-size: 40px;
       }
@@ -185,8 +183,7 @@ div.slick-slider {
   }
 }
 
-@media (max-width:500px) {
-
+@media (max-width: 500px) {
   div.artB {
     flex-direction: column-reverse !important;
     margin: 20px 0 !important;
@@ -201,7 +198,7 @@ div.slick-slider {
   }
 }
 
-@media (max-width:351px) {
+@media (max-width: 351px) {
   ul.slick-dots {
     li {
       margin: 10px 20px;

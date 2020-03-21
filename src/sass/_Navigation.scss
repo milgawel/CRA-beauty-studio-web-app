@@ -1,30 +1,36 @@
 div.nav {
+  width: 100vw;
   position: relative;
-  padding: 20px 12% 20px 12%;
+  padding: 10px 2% 10px 0;
   border: 4px solid rgb(153, 55, 132);
   background-image: url("../images/nav.jpg");
-  position: sticky;
+  position: fixed;
   top: 0;
   opacity: 1;
   margin-bottom: 30px;
   z-index: 1;
 
   .toolbar__navigation {
+    width: 100%;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
 
     div.toolbar__logo {
-
+      // position: relative;
+      // left: 0;
+      margin-right: auto;
+      margin-left: 15px;
       a {
-        color: white;
+        color: #8e1172;
         text-decoration: none;
-        font-family: 'Great Vibes';
+        font-family: "Great Vibes";
         font-size: 45px;
+        font-weight: 700;
       }
     }
 
     div.toolbar-navigation-items {
-      flex-grow: 1;
+      // flex-grow: 1;
 
       ul {
         list-style: none;
@@ -35,27 +41,27 @@ div.nav {
         li a {
           display: block;
           background: #fff;
-          border-radius: 25px;
-          border: 4px solid #8E1172;
+          border-radius: 15px;
+          border: 4px solid #8e1172;
           color: black;
-          padding: 14px 20px;
-          transition: .3s;
+          padding: 12px 15px;
+          transition: 0.3s;
           text-transform: uppercase;
           text-decoration: none;
-          font-family: 'Montserrat', sans-serif;
+          font-family: "Montserrat", sans-serif;
           font-weight: bold;
+          margin-left: 5px;
         }
 
-
         a:hover {
-          background-color: #8E1172;
+          background-color: #8e1172;
           border: 4px solid white;
           color: white;
         }
       }
 
       a.active {
-        background-color: #8E1172;
+        background-color: #8e1172;
         border: 4px solid white;
         color: pink;
       }
@@ -96,7 +102,7 @@ div {
 
 .side-drawer {
   height: 330px;
-  background-color: #8E1172;
+  background-color: #8e1172;
   box-shadow: 1px 0px 7px rgba(0, 0, 0, 0.5);
   position: fixed;
   top: 84px;
@@ -105,7 +111,7 @@ div {
   z-index: 200;
   border-bottom-right-radius: 20px;
   transform: translateX(-104%);
-  transition: transform .3s ease;
+  transition: transform 0.3s ease;
 }
 
 .side-drawer.open {
@@ -141,7 +147,7 @@ div {
       width: 100%;
       color: white;
       text-decoration: none;
-      font-family: 'Montserrat', sans-serif;
+      font-family: "Montserrat", sans-serif;
       font-size: 25px;
       text-transform: uppercase;
     }
@@ -166,7 +172,6 @@ div {
   display: none;
 }
 
-
 @media (max-width: 1024px) {
   .toolbar-navigation-items {
     display: none;
@@ -190,9 +195,9 @@ div {
 }
 
 @media (min-width: 1025px) {
-  .toolbar__logo {
-    display: none;
-  }
+  // .toolbar__logo {
+  //   display: none;
+  // }
 
   .side-drawer {
     display: none;

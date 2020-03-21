@@ -2,15 +2,18 @@ div.workers {
   display: flex;
   flex-direction: column;
 
+  @media (min-width: 1024px) {
+    padding-top: 100px;
+  }
+
   div.team {
     margin: 0 auto;
     display: flex;
     justify-content: center;
     flex-direction: column;
 
-
     p {
-      font-family: 'Montserrat', sans-serif;
+      font-family: "Montserrat", sans-serif;
       text-align: center;
       font-size: 35px;
       font-weight: bold;
@@ -20,7 +23,7 @@ div.workers {
       margin: 5vh 0;
       width: 80vh;
       // height: 51vh;
-      box-shadow: 0px 0px 10px 10px #EBEAEF;
+      box-shadow: 0px 0px 10px 10px #ebeaef;
     }
   }
 }
@@ -47,7 +50,7 @@ div.workers {
       margin-bottom: 30px;
 
       h1 {
-        font-family: 'Montserrat', sans-serif;
+        font-family: "Montserrat", sans-serif;
         text-align: center;
         margin-top: 3vh;
         margin-bottom: 3vh;
@@ -55,7 +58,7 @@ div.workers {
       }
 
       p {
-        font-family: 'Montserrat', sans-serif;
+        font-family: "Montserrat", sans-serif;
         text-align: center;
         width: 80%;
       }
@@ -63,7 +66,7 @@ div.workers {
   }
 }
 
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
   div.workers {
     div.team {
       width: 100%;
@@ -94,7 +97,7 @@ div.workers {
   }
 }
 
-@media (max-width:1024px) {
+@media (max-width: 1024px) {
   div.workers {
     div.worker {
       img {

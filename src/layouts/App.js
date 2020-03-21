@@ -1,28 +1,27 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router } from 'react-router-dom';
+import React, { Component } from "react";
+import { BrowserRouter as Router } from "react-router-dom";
 
-import Header from './Header';
-import Navigation from './Navigation';
-import Page from './Page';
-import Footer from './Footer';
-import Intro from './Intro';
-import SideDrawer from '../components/SideDrawer/SideDrawer';
-import Backdrop from '../components/Backdrop/Backdrop';
+import Header from "./Header";
+import Navigation from "./Navigation";
+import Page from "./Page";
+import Footer from "./Footer";
+import Intro from "./Intro";
+import SideDrawer from "../components/SideDrawer/SideDrawer";
+import Backdrop from "../components/Backdrop/Backdrop";
 
 class App extends Component {
-
   state = {
     sideDrawerOpen: false
-  }
+  };
 
   drawerToggleClickHandler = () => {
-    this.setState((prevState) => {
-      return { sideDrawerOpen: !prevState.sideDrawerOpen }
+    this.setState(prevState => {
+      return { sideDrawerOpen: !prevState.sideDrawerOpen };
     });
   };
 
   backdropClickHandler = () => {
-    this.setState({ sideDrawerOpen: false })
+    this.setState({ sideDrawerOpen: false });
   };
 
   render() {
@@ -33,28 +32,25 @@ class App extends Component {
     }
 
     return (
-      <Router basename={process.env.PUBLIC_URL} >
-        <div className="animatedLogo">
-          {<Intro />}
-        </div>
+      <Router basename={process.env.PUBLIC_URL}>
+        <div className="animatedLogo">{<Intro />}</div>
         <div className="app">
-          <SideDrawer show={this.state.sideDrawerOpen} click={this.backdropClickHandler}/>
+          <SideDrawer
+            show={this.state.sideDrawerOpen}
+            click={this.backdropClickHandler}
+          />
           {backdrop}
-          <header>
+          {/* <header>
             {<Header />}
-          </header>
+          </header> */}
           <div className="nav">
             {<Navigation drawerClickHandler={this.drawerToggleClickHandler} />}
           </div>
-          <main>
-            {<Page />}
-          </main>
-          <footer>
-            {<Footer />}
-          </footer>
+          <main>{<Page />}</main>
+          <footer>{<Footer />}</footer>
         </div>
       </Router>
-    )
+    );
   }
 }
 

@@ -1,6 +1,6 @@
-import React, { Component } from 'react';
-import SlideView from '../components/carousel';
-import Animation from '../components/animation';
+import React, { Component } from "react";
+import SlideView from "../components/carousel";
+import Animation from "../components/animation";
 
 class ScrollToTopOnMount extends Component {
   componentDidMount() {
@@ -15,17 +15,12 @@ class ScrollToTopOnMount extends Component {
 const HomePage = () => {
   return (
     <>
-    <ScrollToTopOnMount />
-      <div className="car">
-        {<SlideView />}
-      </div>
-      <div className="animation">
-        {<Animation />}
-      </div>
-      <div className="Homefooter">
-      </div>
+      <ScrollToTopOnMount />
+      <div className="car">{<SlideView />}</div>
+      <div className="animation">{<Animation />}</div>
+      <div className="Homefooter"></div>
     </>
   );
-}
+};
 
 export default HomePage;
